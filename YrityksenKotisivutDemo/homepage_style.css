@@ -1,0 +1,90 @@
+/* Style of the whole document */
+* {
+	box-sizing: border-box;
+}
+
+/* Style of the whole body */
+body {
+	margin: 0;
+	font-size: 100%;
+}
+
+/* Style of the header */
+.header {
+	background-image: linear-gradient(to bottom right, #000099, #0000ff, #00ffff, #e6ffff);
+	text-align: center;
+	padding: 20px;
+}
+
+/* Specify the style of the company's name */
+.header h1 {
+	font-size: 3.7em;
+	font-family: Georgia, serif;
+	text-shadow: 6px 6px 1px #000000;
+	color: #fff;
+}
+
+/* Style of the top navigation bar container */
+.topnav {
+	overflow: hidden;
+	background-color: #000066;
+	position: -webkit-sticky; /* For safari */
+	position: sticky;
+	top: 0;
+	font-size: 1em;
+}
+
+/* Links of the navigation bar */
+.topnav a {
+	float: left;
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Move last link of the navigation bar to right */
+.topnav a:last-child {
+	float: right;
+}
+
+/* Change color of the links when mouse is over them */
+.topnav a:hover {
+	background-color: #00bfff;
+	color: #000;
+}
+
+/* Style of the main content */
+.content {
+	background-color: #ffffff;
+	padding: 15px;
+	font-size: 1em;
+}
+
+/* Style of the footer */
+.footer {
+	text-align: center;
+	background-image: linear-gradient(to bottom right, #000099, #0000ff, #00ffff, #e6ffff);
+	padding: 20px;
+}
+
+/* Style the contact information box */
+.contact {
+	padding: 5px;
+	background-color: #000066;
+	color: #ffffff;
+	width: 380px;
+	height: 200px;
+	margin: auto;
+}
+
+/* Color of the email link */
+.contact a {
+	color: #ffffff;
+}
+
+/* Set email link color when hover */
+.contact a:hover {
+	color: #ff0000;
+}

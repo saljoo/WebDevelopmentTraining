@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+}
+
+/* Otsikkoalueen tyyli */
+header {
+	padding: 15px;
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-size: 2vw;
+	font-family: "Arial Black";
+}
+
+/* Otsikon rajan tyyli */
+#h1border {
+	padding: 7px;
+	border: 4px dashed white;
+}
+
+/* Menun tyyli */
+nav {
+	float: left;
+	width: 10%;
+	background-color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/* Listan tyyli menun sisällä */
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+}
+
+/* Artikkeliosan tyyli */
+article {
+	float: right;
+	width: 90%;
+	border-left: 1px solid black;
+	background-color: white;
+	font-family: Arial;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/* Teksti ja linkit vierekkäin */
+section:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Menu ja leipäteksti päällekkäin kun ruutu riittävän kapea */
+@media (max-width: 800px) {
+	nav, article {
+		width: 100%;
+		height: auto;
+	}
+}
+
+/* Ensimmäisen kuvan tyyli */
+#img1 {
+	width: 30%;
+	height: auto;
+	float: right;
+	border: 1px solid black;
+	margin-left: 10px;
+}
+
+/* Listojen tyyli */
+.lists {
+	list-style-type: circle;
+}
+
+/* Harjoitteluaikataulutaulukon otsikon tyyli */
+.harjaik {
+	font-family: "Arial Black";
+	font-size: 2vw;
+	padding-bottom: 10px;
+}
+
+/* Taulukoiden tyyli */
+.tablestyle {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+/* Taulukoiden solujen tyyli */
+th, td {
+	text-align: center;
+	border: 2px solid black;
+	padding: 5px;
+}
+
+/* Alaviitteen tyyli */
+footer {
+	padding: 15px;
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-size: 2vw;
+	font-family: "Times New Roman";
+}
